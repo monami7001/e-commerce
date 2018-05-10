@@ -20,8 +20,8 @@
                position="attributes">
             <attribute name="t-if">not website.checkout_skip_payment</attribute>
         </xpath>
-        <xpath expr="(//div[hasclass('oe_cart')]//table[hasclass('table')])[2]"
-               position="attributes">
+        <xpath expr="//div[hasclass('oe_cart')]//table[hasclass('table')][3]"
+                position="attributes">
             <attribute name="t-if">not website.checkout_skip_payment</attribute>
         </xpath>
     </template>
